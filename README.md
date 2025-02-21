@@ -1,2 +1,2 @@
 # Portfolio
-Collection of cybersecurity projects, including pentesting write ups, python automation scripts, ctf solutions, and personal lab setups , the portfolio shows my skills and progress as I work toward becoming a pentester/cybersecurity professional
+Welcome to my cybersecurity portfolio! This repository showcases my learning journey in the field of cybersecurity, with a focus on penetration testing, vulnerability analysis, and Python automation. Below, you'll find a record of my completed projects, write-ups, and labs, along with their completion dates.
