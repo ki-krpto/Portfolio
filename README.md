@@ -1,39 +1,55 @@
-# Portfolio
-Welcome to my cybersecurity portfolio! This repository showcases my learning journey in the field of cybersecurity, with a focus on penetration testing, vulnerability analysis, and Python automation. Below, you'll find a record of my completed projects, write-ups, and labs, along with their completion dates.
+# Ki Krpto — Personal Portfolio
 
-## Completed Projects/Challenges
+Hi! I'm a high school sophomore from Fallbrook, CA, exploring programming, web development, and cybersecurity. This repository showcases my current projects, learning journey, and the skills I’m leveling up along the way. Think of it as a snapshot of where I’m at and where I’m headed.
 
-### **Hack The Box -- Labs ###
-Some Labs i've done so far:
+---
 
-**Meow (Hack the box)**
-Learned how to connect to telnet using Parrot OS anonymously
-tools used: **Nmap** **Telnet**
-official writup: blob:https://app.hackthebox.com/36f25722-cfda-423e-a9d5-508afe131937
+## Quick Links
+- Portfolio website: [https://ki-krpto.github.io/Portfolio/](https://ki-krpto.github.io/Portfolio/)  
+- GitHub profile: [https://github.com/ki-krpto](https://github.com/ki-krpto)  
 
-**Fawn (Hack the box)**
-Learned how to connect to FTP using Parrot OS anonymously
-Tools used: **Nmap** **FTP**
-official writeup: blob:https://app.hackthebox.com/5e82a10c-53d4-466f-87fc-891faa086668
+---
 
-**Dancing (Hack the box)**
-Learned how to connect to SMB using Parrot OS anonymously
-Tools used **Nmap** **SMB** 
+## Current Focus
+- **Programming & Web Development** — building websites, apps, and small tools to practice HTML, CSS, JavaScript, and Python.  
+- **Cybersecurity & Pentesting** — learning the fundamentals of penetration testing and automation with Python.  
+- **Project & Life Organization** — experimenting with Notion-based life RPG trackers, Google Calendar, and productivity systems to level up skills efficiently.  
 
-### Python Scripts for Pentesting ###
-Here, when I do make them I'll store scripts I build to automate some common tasks for Pentesting
+---
 
-### Capture the Flag (CTF) solutions ###
-Will start these soon
+## Notable Projects
 
-### Cybersecurity skills developed so far ###
-- 
+### Portfolio Site
+My personal website where I showcase projects, skills, and progress:  
+- Built with HTML, CSS, and GitHub Pages  
+- Features widgets, interactive elements, and my ongoing learning projects  
 
-### Tools and Resources ###
-** Operating systems **: Kali Linux, Ubuntu, Parrot OS, Windows 7, windows xp, 
-** Learning platforms ** Codeacademy, Georgia Wiedman (Penetration Testing), Hack the box, Thr Great Courses (How to program computer science concepts and python exercises)
+### Python & Automation Scripts
+- Small scripts for practice and workflow automation (Python)  
+- Planned tools for security tasks, web scraping, and personal productivity
 
-### Future Projects ###
-- Continue to work on Labs and start CTF challenges to learn more about pentesting
-- develop some Python scripts to automate Pentesting and make it easier
-- Finish my Penetration Testing book by Georgia Weidman
+### Coding Club Leadership
+- Mentoring peers in Python and game development with platforms like Trinket and Raspberry Pi  
+- Encouraging experimentation and creativity in beginner coders  
+
+---
+
+## Skills
+- **Programming languages:** Python (automation, scripting), HTML/CSS/JS (web dev)  
+- **Tools & platforms:** GitHub, GitHub Pages, Raspberry Pi, Notion, Google Calendar, Hack The Box (intro labs)  
+- **Learning & productivity:** CS50 (computer science fundamentals), Codecademy, Georgia Weidman’s *Penetration Testing*
+
+---
+
+## Current Goals
+1. Complete CS50 by the end of the year and build small projects to demonstrate concepts  
+2. Expand my portfolio with real web projects for personal growth and potential internships  
+3. Develop Python scripts to automate tasks, including potential pentesting tools  
+4. Continue mentoring coding club and inspire peers to build confidence in programming  
+5. Explore early internship opportunities in programming for summer 2026  
+
+---
+
+## Contact
+I’m learning and sharing my journey publicly. Feedback, collaboration, or mentorship is welcome! Open an issue, PR, or reach me via my portfolio contact form.
+
