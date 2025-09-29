@@ -1,6 +1,6 @@
 # Ki Krpto — Personal Portfolio
 
-Hi! I'm a high school sophomore from Fallbrook, CA, exploring programming, web development, and cybersecurity. This repository showcases my current projects, learning journey, and the skills I’m leveling up along the way. Think of it as a snapshot of where I’m at and where I’m headed.
+Hi! I'm a high school Junior from Fallbrook, CA, exploring programming, web development, and cybersecurity. This repository showcases my current projects, learning journey, and the skills I’m leveling up along the way. Think of it as a snapshot of where I’m at and where I’m headed.
 
 ---
 
