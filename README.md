@@ -56,4 +56,3 @@ Hi! I’m a high school junior from **Fallbrook, CA**, exploring **programming, 
 ## 📬 Contact
 I welcome **feedback, collaboration, or mentorship**!
 - Open an issue or pull request on GitHub
-- Reach me via my [portfolio contact form](https://ki-krpto.github.io/Portfolio/)
