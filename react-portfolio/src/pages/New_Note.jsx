@@ -1,10 +1,10 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link, Route, Routes } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import { collection, getDocs, addDoc, query, orderBy, serverTimestamp } from "firebase/firestore";
 import { db } from "../firebase-config.js";
+import { Link, Route, Routes, useNavigate } from 'react-router-dom';
 
 export default function New_note() {
   const [title, setTitle] = useState("")
