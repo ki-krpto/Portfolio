@@ -105,14 +105,18 @@ main {
 }
 
 .hero-header {
-  font-size: 5rem;
-  transform: translate(10%, -150%);
+  font-size: clamp(1.75rem, 6.5vw, 5rem);
+  line-height: 1.1;
+  margin: 0;
+  transform: translate(20%, -150%);
   color: var(--text-color);
 }
 
 .hero-subheader {
-  font-size: 1.5rem;
-  transform: translate(1%, -350%);
+  font-size: clamp(1rem, 2.2vw, 1.5rem);
+  line-height: 1.3;
+  margin: 0.5rem 0 0;
+  transform: translate(12%, -350%);
   color: var(--text-color);
 }
 
@@ -130,11 +134,11 @@ main {
   border-color: var(--accent);
   color: var(--accent-text);
   margin-right: 12rem;
-  transform: translate(0%, -300%);
+  transform: translate(20%, -150%);
 }
 
 .contact-button:hover {
-  transform: translate(0%, -300%);
+  transform: translate(20%, -150%);
   background-color: rgba(0, 190, 255, 0.8) !important;
   border-color: rgba(0, 180, 255, 0.8) !important;
   box-shadow: 0 0 15px #00baff, 0 0 30px #29f7ff;
@@ -144,14 +148,21 @@ main {
   background-color: var(--accent);
   border-color: var(--accent);
   color: var(--accent-text);
-  transform: translate(0%, -300%);
+  transform: translate(100%, -150%);
 }
 
 .projects-button:hover {
-  transform: translate(0%, -300%);
+  transform: translate(100%, -150%);
   background-color: rgba(0, 190, 255, 0.8) !important;
   border-color: rgba(0, 180, 255, 0.8) !important;
   box-shadow: 0 0 15px #00baff, 0 0 30px #29f7ff;
+}
+
+.contact-button,
+.projects-button {
+  font-size: clamp(0.9rem, 1.1vw, 1rem);
+  padding: clamp(8px, 1.2vw, 12px) clamp(12px, 2vw, 16px);    
+  margin: 0;           
 }
 
 .projects-section {
@@ -160,7 +171,7 @@ main {
 }
 
 .section-title {
-    font-size: 5rem;
+    font-size: clamp(2rem, 8vw, 5rem);
     text-align: center;
     color: var(--accent);
     margin-bottom: 40px;
@@ -252,7 +263,7 @@ main {
   border: 1px solid rgba(0, 80, 255, 0.2);
   width: 100%;
   max-width: 750px;
-  transform: translate(15rem, -2rem)
+  margin: 0 auto;
 }
 
 .contact-terminal::first-line {
@@ -427,18 +438,12 @@ main {
 }
 
 .cert-card {
+  width: 100%;
+  max-width: 28rem;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 28rem;
-  margin: 0 auto;
-  background: var(--bg-color);
-  border-radius: 14px;
-  padding: 20px;
-  text-align: center;
-  color: var(--text-color);
-  box-shadow: 0 0 4px var(--accent), 0 0 7px #b36bff;
-  transition: 0.25s ease;
 }
 
 .cert-card:hover {
@@ -447,9 +452,10 @@ main {
 }
 
 .cert-image {
+  width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
-  width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 4px var(--accent), 0 0 7px #b36bff;
 }
@@ -466,7 +472,7 @@ main {
   .Hero-Logo {
     width: 28vw;
     height: auto;
-    transform: translate(-90%, 50%);
+    transform: translate(-115%, 50%);
   }
 
   .hero-text {
@@ -480,7 +486,7 @@ main {
 
   .hero-subheader {
     font-size: 1rem;
-    transform: translate(-3.5%, 50%);
+    transform: translate(-5%, 50%);
   }
 
   .circular-image:hover {
@@ -547,8 +553,23 @@ main {
   .projects-button:hover {
     transform: translate(0%, 0%);
   }
+
+  .projects-section {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  background: var(--bg-color);
+  }
+
+.cert-section {
+  padding: 1rem 0;
+  background: var(--bg-color);
+  }
+
+ .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23dcd6ff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .cert-image {
+
+ } 
 }
-
-
-
-
